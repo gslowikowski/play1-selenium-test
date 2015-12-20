@@ -12,4 +12,4 @@ dependencies:
 
 test:
   override: 
-    - mvn selenium:xvfb verify -Dselenium.browser=phantomjs -Pplay13 --settings .travis.settings.xml -e
+    - mvn selenium:xvfb verify -Dselenium.browser=*chrome -Pplay13 --settings .travis.settings.xml -e
